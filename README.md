@@ -38,7 +38,7 @@ Multiple keys can be used to accelerate experiments.
 Please avoid uploading your keys to Github by accident!
 
 ### Run FLARE
-Use the following command to run FLARE on the 2WikiMultihopQA dataset (500 examples) with `text-davinci-003`. Be careful, the experiment is relatively expensive because FLARE iteratively calls OpenAI APIs. To save credits, you can set `debug=true` to active the debugging mode which walks you through the process one example at a time, or you can decrease `max_num_examples` to run small-scale experiments.
+Use the following command to run FLARE on the 2WikiMultihopQA dataset (500 examples) with `text-davinci-003`. Be careful, the experiment is relatively expensive because FLARE iteratively calls OpenAI APIs. To save credits, you can set `debug=true` to activate the debugging mode which walks you through the process one example at a time, or you can decrease `max_num_examples` to run small-scale experiments.
 ```shell
 ./openai.sh 2wikihop configs/2wikihop_flare_config.json
 ```
